@@ -1,0 +1,135 @@
+/* section */
+section, header{
+	background-color: #2e2b40;
+}
+.fondoflores, .fondoflores2{	
+	position: center;
+	background-size: 97.5% 100%;
+	background-repeat: no-repeat;
+	margin-left: 1.2%;
+}
+.fondoflores{
+	background-image: url("../image/header-image.jpg");	
+}
+.fondoflores2{
+	background-image: url("../image/image3.jpg");	
+}
+.cuadronegro, .cuadroAmarillo{
+	position: center; 
+	margin: 17% 25%; 
+	padding: 3% 0%	
+} 
+.cuadronegro{
+	background-color: #15131f;	
+}
+.cuadroAmarillo{
+	background-color: #f6bb74;	
+}
+.spring{
+	font-size: 600%; 
+}
+.amanda{
+	margin-bottom: 5%;
+}
+.sub{
+	text-align: center;
+	color: white;
+	font-family: "Courgette";
+}
+.negro{
+	color: #15131f;	
+}
+.tit, .spring, .spring2{
+	text-align: center;
+	font-family: "Courgette";
+	margin-top: 2%;	
+}
+.tit, .spring{
+	color: #f6bb74;	
+}
+.spring2{
+	color: #15131f;	
+}
+.uno{
+	margin: 3% 0%;
+}
+.text{
+	color: white;
+	font-size: 90%;
+}
+.fondo, .fondofoto{
+	background-color: #15131f;
+	height: 55%;
+	margin-bottom: 3%;
+}
+.florNaranja{
+	background-color: #f9e5cd; 
+}
+/* aside */
+.search{
+	background-color: #15131f;
+	padding: 5%;
+	margin-bottom: 2%;
+	height: 10%;
+	border-radius: 5px 5px;
+}
+.bot{
+	background-color: #2e2b40;
+	border: none; 
+	padding: 3% 5%;
+	width: 100%;
+	border-radius: 5px 5px;
+}
+.fondomujer{
+	background-color: #15131f;
+	height: 55%;
+}
+.am{
+	color: white;
+	font-size: 90%;
+	font-weight: 700;
+	text-align: center;
+	margin: 2% 0%;
+}
+.info{
+	color: white;
+	font-size: 80%;
+	margin: 2% 2.5%;
+}
+i{
+	color: white;
+}
+.redes{
+	background-color: #2e2b40;
+	border-radius: 100%;
+	padding: 1.7% 2%;
+	margin: 2.5% 2.5%;
+}
+/* footer */
+.foot{
+	text-align: center;
+	color: white;
+	padding: 3% 0%;
+	background-color: #15131f;
+	font-size: 80%;
+}
+/* Responsive */
+@media screen and (max-width: 600px){
+	.cuadronegro{
+		width: 70%;
+		margin: auto;
+		height: 200%;
+	}
+	.spring{
+		font-size: 300%;
+	}
+	.sub{
+		font-size: 80%;
+	}
+	.fondoflores{
+		background-size: 100%;
+	}
+	#logo{
+		width: 80%;
+	}
+}
